@@ -4,12 +4,16 @@ For this testing sample I chose an API, because I have more experience with webs
 
 The chosen API: https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-CreateBooking 
 
-Manual Testing 
+# Manual Testing 
 I created a few manual tests in simple charts. In real life scenario, I would create and maintain the tests with some test maintenance software (Jira etc..). 
 The tests should show how I would start defining the manual tests in accordance with the user cases.
 
 
-Automation Testing 
+# Automation Testing 
 I created a very simple robot framework script that gets information, posts information and deletes it from the API.
 The script should give some indication how I would start automatinng the functionalities of the API beginning with the simple requests. 
-The tests themselves are very simple and in a real scenario would require more functionalities etc.. 
+The tests themselves are very simple and in a real scenario would require more functionalities 
+
+
+The API certainly has some subtle bugs that popped up during testing. 
+For example, the status code for successful deletion of a resource is '201', which I included in the automation scripts, but would be fairly misleading in a real life scenario. 
