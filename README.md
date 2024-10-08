@@ -8,6 +8,8 @@ The chosen API: https://restful-booker.herokuapp.com/apidoc/index.html#api-Booki
 I created a few manual tests in simple charts. In real life scenario, I would create and maintain the tests with some test maintenance software (Jira etc..). 
 The tests should show how I would start defining the manual tests in accordance with the user cases.
 
+Currently, the manual tests test that the basic functionalities work. The next step would be to test that the GET, POST, DELETE requests don't work with incorrect data. For example, the DELETE request should fail when the authorization is not correct and the POST request should fail when the body of the request, the booking data is incorrect. 
+
 
 # Automation Testing 
 I created a very simple robot framework script that gets information, posts information and deletes it from the API.
