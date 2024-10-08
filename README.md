@@ -19,3 +19,4 @@ The tests themselves are very simple and in a real scenario would require more f
 
 The API certainly has some subtle bugs that popped up during testing. 
 For example, the status code for successful deletion of a resource is '201', which I included in the automation scripts, but would be fairly misleading in a real life scenario. 
+Additionally, for the sake of this exercise, the authentication token has been added to Github, which would not be allowed in a real scenario..
